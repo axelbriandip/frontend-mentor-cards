@@ -35,7 +35,7 @@
 }
 
 .header {
-    margin-bottom: 2rem;
+    margin-bottom: 2.5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -58,7 +58,6 @@
     color: var(--Grayish-Blue);
     text-align: center;
     line-height: 1.8rem;
-    width: 50%;
 }
 
 .card-container {
@@ -113,7 +112,7 @@
     border-top-color: var(--Cyan);
 }
 
-@media screen and (min-width: 1010px) {
+@media screen and (min-width: 1440px) {
     .card-container {
         width: 950px;
         margin-left: auto;
@@ -129,5 +128,8 @@
     .card:nth-child(3) {
         grid-row: 2 / 3;
         grid-column: 2 / 3;
+    }
+    .principal-text {
+        width: 40%;
     }
 }
