@@ -36,24 +36,29 @@
 
 .header {
     margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .principal-title {
     font-size: 1.5rem;
     font-weight: var(--weight-light);
-    color: var(--Very-Dark-Blue);
+    color: var(--Grayish-Blue);
     margin-bottom: 1rem;
     text-align: center;
 }
 
 .principal-title__bold {
     font-weight: var(--weight-bold);
+    color: var(--Very-Dark-Blue);
 }
 
 .principal-text {
+    color: var(--Grayish-Blue);
     text-align: center;
-    font-variant: var(--Grayish-Blue);
     line-height: 1.8rem;
+    width: 50%;
 }
 
 .card-container {
